@@ -67,6 +67,6 @@ if __name__ == '__main__':
     perceptron.fit(X, d) #Entrenamiento del perceptrón
     print(Back.BLUE + "Los pesos finales son: {}".format(perceptron.W))
     
-    prediccion = perceptron.predict(np.array([1,0]))
+    prediccion = perceptron.predict(np.array([1,1]))
                                 
     print(Fore. CYAN + "El Resultado es: {}".format(prediccion))
